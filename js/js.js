@@ -5,10 +5,10 @@
 		var rDec = Math.floor((Math.random() * 15) + 1);
 		var rBin = rDec.toString(2);
 		var sb = [];
-		sb.push('x -' + spaceIt(padLeft(rBin, 4, 0)) + '-\n');
-		sb.push('x -' + spaceIt(padLeft('', 4, ' ')) + '-\n');
-		sb.push('x -' + spaceIt(padLeft('', 4, ' ')) + '-\n');
-		sb.push('x -' + spaceIt(padLeft('', 4, ' ')) + '-\n');
+		sb.push('g -' + spaceIt(padLeft(rBin, 4, 0)) + '-\n');
+		sb.push('d -' + spaceIt(padLeft('', 4, ' ')) + '-\n');
+		sb.push('a -' + spaceIt(padLeft('', 4, ' ')) + '-\n');
+		sb.push('e -' + spaceIt(padLeft('', 4, ' ')) + '-\n');
 		sb.reverse();
 		myPre.innerHTML = sb.join('');
 	}
