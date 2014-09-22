@@ -3,8 +3,15 @@
 
 .Left { float: left; }
 
-div.Strings div {
+body {
 	font-family: "Courier New";
-	font-size: 18pt;
+	font-size: 14pt;
 }
 
+dl dt {
+	font-weight: bold;
+}
+
+div.Strings div, div.Strings span {
+	font-size: 26pt;
+}
