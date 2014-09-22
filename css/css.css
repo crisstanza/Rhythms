@@ -1,0 +1,10 @@
+.Show { display: default; }
+.Hide {	display: none; }
+
+.Left { float: left; }
+
+div.Strings div {
+	font-family: "Courier New";
+	font-size: 18pt;
+}
+
