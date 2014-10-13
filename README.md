@@ -1,4 +1,4 @@
 rithms
 ======
 
-http://crisstanza.github.io/rithms/
+http://crisstanza.github.io/rythms/
