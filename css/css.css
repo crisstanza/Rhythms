@@ -1,0 +1,28 @@
+.Show { display: default; }
+.Hide {	display: none; }
+
+.Left { float: left; }
+
+body {
+	font-family: "Courier New";
+	font-size: 14pt;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+div.Strings {
+	margin: auto;
+	width: 800px;
+	padding: 20px;
+}
+div.Strings div, div.Strings span {
+	font-size: 26pt;
+}
+
+div.box-borders {
+	border: 1px solid gray;
+	box-shadow: 3px 3px 1px gray;
+	background-color: #FDFDFD;
+}
